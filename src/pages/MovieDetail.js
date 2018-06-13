@@ -36,8 +36,8 @@ export default class MovieDetail extends Component {
                     <p className={"movie-detail__info-txt"}>Release date: <span>{this.state.data && this.state.data.release_date}</span></p>
                 </div>
 
-                <div className={"movie-detail__overvie-container"}>
-                    <p className={"movie-detail__info-txt"}>{this.state.data && this.state.data.overview}</p>
+                <div className={"movie-detail__overview-container"}>
+                    <p className={"movie-detail__overview"}>{this.state.data && this.state.data.overview}</p>
                 </div>
             </div>
         )

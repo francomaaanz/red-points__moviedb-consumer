@@ -55,6 +55,7 @@ class Movies extends Component {
 
                 <Paginator  next={this.next} 
                             back={this.back} 
+                            totalPages={this.state.data && this.state.data.total_pages}
                             page={this.state.data && this.state.data.page}                         
                 />
                 
