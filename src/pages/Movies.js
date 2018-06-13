@@ -42,6 +42,11 @@ class Movies extends Component {
             this.loadFilms();
         }
     }
+
+    serachByPage = (page) => {
+        console.log('page => ', page);
+        Services.serachByPage(page, this.populateMovieList)
+    }
     
     render() {
         
@@ -55,6 +60,7 @@ class Movies extends Component {
 
                 <Paginator  next={this.next} 
                             back={this.back} 
+                            serachByPage={this.serachByPage} 
                             totalPages={this.state.data && this.state.data.total_pages}
                             page={this.state.data && this.state.data.page}                         
                 />

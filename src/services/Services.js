@@ -81,3 +81,18 @@ export function getListOfMoviesNetxBackPage(page, callbackOk) {
     });
 
  }
+
+ export function serachByPage(idPage    , callbackOk) {
+    return axios.get(`${Contants.base_url}movie/popular?${Contants.api_key}&page=${idPage}`)
+    .then(function (response) {
+        if(response.data) {
+            const data = response.data
+            callbackOk(data)
+        }
+    
+    })
+    .catch(function (error) {
+        console.log('error => ', error);
+    });
+
+ }

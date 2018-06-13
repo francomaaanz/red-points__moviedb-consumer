@@ -14,6 +14,7 @@
     border-radius: 3px;
     font-size: 13px;
     margin-right: 10px;
+    cursor: pointer;
 }
 .paginator__actual-page {
     height: 27px;
@@ -21,6 +22,14 @@
     font-size: 18px;
     vertical-align: bottom;
     width: 50px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
 .paginator__next-btn {
@@ -32,6 +41,7 @@
     border-radius: 3px;
     font-size: 13px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 /* PAGIANCION */

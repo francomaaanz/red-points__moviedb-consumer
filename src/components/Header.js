@@ -26,7 +26,7 @@ export default class Header extends Component {
     console.log(showBtn)
         return (
             <div className={"search__container"}>
-                <input name="search" className={"search__ipt"} type="text" placeholder={"Serach Movie"} onChange={this.onChangeSearch} onKeyPress={this._handleKeyPress}/>
+                <input name="search" className={"search__ipt"} type="text" placeholder={"Search for a movie..."} onChange={this.onChangeSearch} onKeyPress={this._handleKeyPress}/>
                 <button style={showBtn} title={"undo search"} onClick={this.clearSearch} >X</button>
                 <div className={"search__reuslts-container"}>
                     <ul className={"search__reuslts-list-container"} style={{display: 'none'}}>
