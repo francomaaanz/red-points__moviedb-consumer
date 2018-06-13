@@ -1,0 +1,56 @@
+.movie-detail__container {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+
+.movie-detail__img-container {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 147px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.movie-detail__info-container,
+.movie-detail__img-container {
+    display: inline-block;
+}
+
+.movie-detail__img {
+    width: 100%;
+}
+
+.movie-detail__info-container {
+    width: 100%;
+    max-width: 77%;
+}
+
+.movie-detail__title {
+    font-size: 23px;
+    margin: 0 0 5px 0;
+}
+
+
+.movie-detail__info-txt {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
+
+.movie-detail__info-txt span {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    text-align: right;
+}
+
+.movie-detail__overview-container {
+    margin: 30px 0 0 0;
+    padding: 15px 15px 15px 0;
+}
+
+.movie-detail__overview {
+    text-align: left;
+    font-size: 18px;
+}
+

@@ -1,0 +1,47 @@
+.search__container {
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    position: relative
+}
+
+.search__ipt {
+    height: 32px;
+    text-align: left;
+    padding: 0 0 0 13px;
+    width: 100%;
+}
+
+.search__ipt + .search__reuslts-container {
+    position: absolute;
+    display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 315px;
+    top: 45px;
+    border-radius: 1px;
+    border-top: 0;
+}
+
+.search__reuslts-list-container {
+    list-style: none;
+    padding: 0;
+}
+
+.search__reuslts-list-item {
+    margin-left: 10px;
+    margin: 0 15px 0 -1px;
+    padding: 5px 1px 5px 21px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 293px;
+}
+
+.search__reuslts-container ul li:hover {
+    
+}
+
+.search__reuslts-list-item a {
+    text-decoration: none;
+    
+}

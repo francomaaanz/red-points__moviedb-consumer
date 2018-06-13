@@ -1,0 +1,37 @@
+/* PAGIANCION */
+
+.paginator {
+    width: 216px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.paginator__back-btn {
+    width: 70px;
+    height: 32px;
+    background-color: #008E00;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.paginator__actual-page {
+    height: 27px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: bottom;
+    width: 50px;
+}
+
+.paginator__next-btn {
+    width: 70px;
+    height: 32px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+/* PAGIANCION */
